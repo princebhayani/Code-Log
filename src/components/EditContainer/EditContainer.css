@@ -1,0 +1,128 @@
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100vh - 4.5rem);
+}
+
+.editor-container.fullscreen {
+    min-height: 100vh;
+}
+
+.upper-toolbar {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.8rem 0.4rem;
+}
+
+@media (max-width: 540px) {
+    .upper-toolbar {
+        height: 8rem;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 540px) {
+    .header {
+        width: 100%;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2.3rem;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 540px) {
+    .title {
+        margin-right: 1rem;
+    }
+}
+
+.select-bars {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.select-bars>div {
+    width: 8rem;
+}
+
+.select-bars>div:last-child {
+    width: 10rem;
+}
+
+.title .button {
+    padding: 0.7rem 0.4rem;
+    width: 6.2rem;
+    background: #0097d7;
+    border: none;
+    border-radius: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.code-editor-container {
+    height: calc(100% - 4rem);
+}
+
+.code-editor-container>div {
+    height: 100%;
+}
+
+.lower-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 0.8rem 1rem;
+}
+
+.lower-toolbar input {
+    display: none;
+}
+
+.lower-toolbar label,
+.lower-toolbar a,
+.lower-toolbar button {
+    font-size: 1.2rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: black;
+}
+
+.lower-toolbar button:first-child {
+    background: none;
+}
+
+.lower-toolbar button:last-child {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.lower-toolbar .save-and-run-button {
+    padding: 0.6rem 1rem;
+    background: #0097d7;
+    border: none;
+    border-radius: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}

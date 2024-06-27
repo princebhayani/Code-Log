@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: '100vh';
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.consol-div {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
