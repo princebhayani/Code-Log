@@ -7,12 +7,12 @@ function EditContainer() {
     return (
         <div className={`editor-container`}>
             <div className="upper-toolbar">
-                <div className="header">
+                <div className="toolbar-header">
                     <div className="title">
                         <h3>title</h3>
                         <BiEditAlt />
                     </div>
-                    <button className="button" >Save code</button>
+                    <button className="toolbar-button" >Save code</button>
                 </div>
                 <div className="select-bars">
                     <Select />

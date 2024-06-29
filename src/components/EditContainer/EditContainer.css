@@ -26,7 +26,7 @@
     }
 }
 
-.header {
+.toolbar-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +67,7 @@
     width: 10rem;
 }
 
-.title .button {
+.toolbar-header .toolbar-button {
     padding: 0.7rem 0.4rem;
     width: 6.2rem;
     background: #0097d7;
