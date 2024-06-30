@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import EditContainer from '../../components/EditContainer/EditContainer'
 import "./CodeSpace.css";
 import InputConsole from '../../components/InputConsole/InputConsole';
+import OutputConsole from '../../components/OutputColsole/OutputConsole';
 function CodeSpace() {
     return (
         <div>
@@ -11,6 +12,7 @@ function CodeSpace() {
                 <EditContainer />
                 <div className='consol-div'>
                     <InputConsole />
+                    <OutputConsole />
                 </div>
             </div>
         </div>
