@@ -2,6 +2,7 @@ import React from 'react'
 import Select from 'react-select';
 import "./EditContainer.css"
 import { BiEditAlt, BiImport, BiExport, BiFullscreen } from 'react-icons/bi';
+import CodeEditor from '../CodeEditor/CodeEditor';
 function EditContainer() {
 
     return (
@@ -20,7 +21,7 @@ function EditContainer() {
                 </div>
             </div>
             <div className="code-editor-container">
-
+                <CodeEditor />
             </div>
             <div className="lower-toolbar">
                 <button >
